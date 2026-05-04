@@ -336,8 +336,8 @@ export default function App() {
           </div>
 
           {validRows.length > 0 && (
-            <p style={{ marginTop: 10, fontSize: 11, color: B.dimText, fontFamily: F.body }}>
-              In the print dialog, set the destination to <strong style={{ color: B.mutedText }}>"Save as PDF"</strong> to generate a file for the resident record.
+            <p style={{ marginTop: 10, fontSize: 11, color: B.dimText, fontFamily: F.body, lineHeight: 1.8 }}>
+              In the print dialog: set destination to <strong style={{ color: B.mutedText }}>"Save as PDF"</strong>, click <strong style={{ color: B.mutedText }}>"More settings"</strong>, and uncheck <strong style={{ color: B.mutedText }}>"Headers and footers"</strong> to remove the browser URL from the document.
             </p>
           )}
 
